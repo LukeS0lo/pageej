@@ -19,7 +19,7 @@ body{
     flex-direction: column;
 }
 .bigtext {
-    font-size:48px;
+    font-size: 24px;
     font-weight: 800;
     font-family: sans-serif;
     
@@ -43,15 +43,29 @@ li {
     text-decoration: none;
     color:#E5e7eb;
     font-size:18px;
-
-    
-   
 }
 
-.lists{
-    text-decoration: none;
-    
+
+
+.firstpart {
+    display:flex;
+    justify-content: space-between;
+    background-color:#1f2937;
+    padding:50px;
+ 
 }
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+ 
+}
+
+
+
+
 
 
 
