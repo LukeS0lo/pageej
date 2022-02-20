@@ -3,6 +3,7 @@ body{
     flex-direction:column;
     margin:0px;
     
+    
 }
 .header{
     background-color:#1f2937;
@@ -12,7 +13,11 @@ body{
     padding:30px;
 }
 .bigtext {
-    font-size:50px;
+    font-size:48px;
+    font-weight: 800;
+    font-family: sans-serif;
+    
+
 }
 
 .lists  {
@@ -26,9 +31,16 @@ li {
     list-style-type: none;
     
 }
-
-a {
-  
+.header a{
     text-decoration: none;
-    color: white;
-  }
+    color:white;
+   
+}
+
+.lists{
+    text-decoration: none;
+    
+}
+
+
+
