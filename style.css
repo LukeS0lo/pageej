@@ -10,12 +10,19 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:30px;
+    padding:10px;
+    color:white;
+    
+}
+.title {
+   
+    flex-direction: column;
 }
 .bigtext {
     font-size:48px;
     font-weight: 800;
     font-family: sans-serif;
+    
     
 
 }
@@ -24,16 +31,20 @@ body{
     display:flex;
     justify-content: space-around;
     width:500px;
-  
+    color:#E5e7eb;
     font-size: 20px;
 }
 li {
+    
     list-style-type: none;
     
 }
-.header a{
+.lists a{
     text-decoration: none;
-    color:white;
+    color:#E5e7eb;
+    font-size:18px;
+
+    
    
 }
 
