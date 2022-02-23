@@ -1,7 +1,10 @@
 body {
     display:flex;
     flex-direction:column;
+    border:0px;
     margin:0;
+    flex-shrink:0;
+   
 }
 
 
@@ -10,7 +13,8 @@ body {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding:150px;
+    padding-top: 0px;
     color:white;
 
     
@@ -39,7 +43,7 @@ li {
     list-style-type: none;
     
 }
-.lists a{
+a{
     text-decoration: none;
     color:#E5e7eb;
     font-size:18px;
@@ -49,14 +53,26 @@ li {
     display:flex;
     justify-content: space-between;
     background-color:#1f2937;
-
+    padding:150px;
+    padding-top: 0px;
+    color:#E5e7eb;
     
  
 }
+.button{
+    background-color:blue;
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    width:100px;
+    
 
+}
 .left {
     display: flex;
     flex-direction: column;
+    padding-right:50px;
+   
     
 
  
