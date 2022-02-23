@@ -81,7 +81,25 @@ a{
 .secondpart {
     display:flex;
     justify-content: space-evenly;
+    flex-direction: column;
 
+}
+
+.Bigtitle{
+    display:flex;
+    justify-content: center;
+}
+.images {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.stuff{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
