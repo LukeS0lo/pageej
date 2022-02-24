@@ -52,6 +52,12 @@ a{
     color:#E5e7eb;
     font-size:18px;
 }
+.firstpart .stuff {
+    width: 500px;
+}
+.secondpart .stuff {
+    width: 300px;
+}
 
 .firstpart {
     display:flex;
@@ -102,10 +108,7 @@ button{
     padding:30px;
 }
 
-img{
-    max-width:300px;
-    
-}
+
 .images {
     display:flex;
     flex-direction: row;
@@ -113,7 +116,7 @@ img{
    
 
 }
-.stuff {
+.secondpart .stuff {
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -147,11 +150,41 @@ img{
     font-size: 30px;
 }
 
+
+.quatro .bbb {
+    margin:12px;
+    padding:10px;
+    border-style: solid;
+    border-radius:10px;
+    border-color:white;
+}
+.quatro {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:#3882f6;
+    margin:100px;
+    height: 200px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+   
+}
+.figtitle{
+    font-size: 30px;
+    font-weight:800;
+
+}
+.thetext {
+    color:#E5e7eb;
+}
+
 .footer{
     display:flex;
     justify-content: center;
     align-items:center;
-    height:200px;
+    height:60px;
     background-color:#1f2937;
 }
 
